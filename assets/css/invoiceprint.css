@@ -1,0 +1,238 @@
+.invBody{
+    margin: 0px;
+    padding: 0px;
+    
+}
+#bg-print{
+    background-color: #F7F7F7;
+}
+#bg-print table tfoot tr th{
+    padding: 5px 18px;
+}
+.invBody:after {
+    content: "-";
+    display: block;
+    color: transparent;
+}
+.invBody{
+    margin: auto;
+    padding: 30px;
+    width: 860px;
+    background-color: #FFFFFF;
+    border: 2px solid #F7F7F7;
+
+}
+.invBody table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+}
+.headerinv{
+    height: 165px;
+    margin: 20px 0 0 0;
+    border-bottom: 2px solid black;
+}
+.invBody p{
+    font-size: 15px;
+    font-family: tahoma;
+
+}
+.invBody h1 {
+    padding: 25px 0 0 0;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: tahoma;
+
+}
+.headerleft p{
+    padding: 0;
+    margin: 0;
+}
+
+.headerleft{
+    float: left;
+}
+.headerright{
+    padding-top: 15px;
+    float: right;
+}
+.cus-info{
+    height: 185px;
+    line-height: 15px;
+    padding: 5px 10px 10px 10px;
+    border-bottom: 3px solid black;
+}
+.cus-inf-sub-left{
+    float: left;
+    width: 400px;
+}
+.cus-inf-sub-right{
+    float: right;
+    width: 250px;
+}
+.inf-left{ 
+    float: left;
+}
+.info-left{
+    float: left;
+}
+.info-right{
+    float: right;
+    text-align: right;
+}
+.inf-right{
+    float: right;
+    padding-right: 80px;
+}
+.data-table{
+    height: 500px;
+}
+.firsttr {
+    height: 30px;
+    border-bottom: 3px solid black;
+}
+.lasttr{
+     border-bottom: 2px solid black;
+}
+.alingcenter{
+    text-align: center;
+}
+.alingright{
+    text-align: right;
+    padding: 10px;
+}
+
+.invBody table .lasttrtotal {
+    height: 30px;
+    text-align: center;
+}
+
+.invBody tbody:after {
+    content: "-";
+    display: block;
+    line-height: 1em;
+    color: transparent;
+    height: 100px;
+}
+.sub-total{
+    font-size: 20px;
+}
+.footer{
+    border-top: 3px solid black;
+    text-align: center;
+    font-family: tahoma;
+    font-size: 8px;
+}
+.footer p{
+  
+    font-size: 12px;
+    padding: 5px 0 0 0 ;
+}
+
+.print-left{
+    float: left;
+}
+.print-left{
+    float: right;
+    text-align: right;
+}
+.print-info p{
+    margin-top: 5px;
+    font-size: 9px;
+}
+#inword{
+     padding: 5px;
+     margin: 0;
+     outline: 0;
+ }
+#notemes{
+    padding: 5px;
+    margin: 0;
+    outline: 0;
+}
+#printbtn{
+    width: 100px;
+    display: inline-block;
+    height: 100px;
+    border-radius: none;
+    text-decoration-color: #F7F7F7; 
+}
+.buttonClss{
+   position: fixed;
+   margin-top: 20%;
+   right: 2%;
+}
+   
+.inlineBlock{
+        display: inline-block;
+}
+.flot-right{
+    float: right;
+}
+.flot-left{
+    float: left;
+}
+.block{
+    display: block;
+}
+#new-order-ex{
+   text-decoration: none;
+   color: #FFFFFF;
+}
+.redBorder{
+    padding-top: 15px;
+    margin-bottom: 5px;
+    padding-left: 15px;
+    background: #DDDDDD;
+
+}
+.bg-grey{
+    background: #DDDDDD;
+    padding: 10px;
+}
+.pading-margin-zero{
+    padding:0;
+    margin:0;
+    outline: 0;
+}
+#data-table-button a{
+    text-decoration: none;
+    color: #0a001f;
+
+}
+#role_id {
+    background: #DDDDDD;
+    font-weight: 700;
+    margin-top: 6px;
+    display: block;
+}
+#singleOrderAction{
+    height: 70px;
+    font-size:30px;
+}
+.center-item{
+    text-align: center;
+}
+#member-admin-table td img{
+    height: 100px;
+    width: 100px;
+    background: red;
+}
+.customer-address-field{
+    height: 94px;
+    width: 366px;
+}
+.login-out-text li{
+    text-align: right;
+    display: inline;
+}
+#white-color{
+	padding-right: 10px;
+}
+.white-color span{
+	color: #C0C0C0;
+}
+#paymentButton{
+    line-height: 12px;
+}

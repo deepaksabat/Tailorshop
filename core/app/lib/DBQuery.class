@@ -1,0 +1,47 @@
+<?php 
+namespace App\lib;
+
+use Users\User;
+use Auth;
+use App\Order;
+use DateTime;
+use format;
+use App\Service;
+use DB;
+
+class DBQuery(){
+
+	function __construct(argument)
+	{
+		# code...
+	}
+
+	public static function getPrice($service_id){
+			$price = Service::Find($service_id);
+		  return $price->service_price ;
+    }
+
+    public static function getOrders(){
+      $serviceactivities = DB::table('orders')
+            ->join('services', 'orders.service_id', '=', 'services.id')
+            ->select('orders.*', 'services.service_name')
+            ->get();
+      return $serviceactivities ;
+    }
+    
+    public static function getOrderById($service_id){
+
+      //$serviceActivity = Order::Find($service_id);
+      $serviceActivity = DB::table('orders')->where('id', $service_id)->get();
+      return $serviceActivity ;
+    }
+
+    public static function getOrderByRef($service_ref){
+      $serviceActivity = DB::table('orders')
+            ->join('services', 'orders.service_id', '=', 'services.id')
+            ->select('orders.*', 'services.service_name')
+            ->where('orders.service_ref','=',$service_ref)
+            ->get();
+      return $serviceActivity ;
+    }
+}
